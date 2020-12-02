@@ -2,6 +2,8 @@ with open("./aoc01.txt") as file:
     input = list(map(lambda x: int(x), file.read().splitlines()))
 
 """
+https://adventofcode.com/2020/day/1
+
 This was my first approach and it worked
 
 for x in input:
@@ -11,7 +13,7 @@ for x in input:
                 print(x * y * z)
                 exit()
                 
-But later I found a more pythonic way to solve de problem
+But later I found a more pythonic way to solve the problem
 """
 from itertools import combinations
 
